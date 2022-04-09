@@ -1,0 +1,39 @@
+h1 {
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: slategray;
+    border: blue dashed 3px;
+    border-width:100%;  
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: slategray;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 4;
+    column-gap: 60px;
+}
+
+ul {
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: indigo; */
+    /* border: solid indigo 4px; */
+    border-bottom: solid indigo 4px;
+    border-left: 8px dashed crimson;
+
+}
+
+li {
+list-style-type: none; 
+/* this above gets rid of the dots or discs in front of the list item */
+/* text-shadow: 4px -2px lightgray; */
+text-shadow: 2px 2px #6e416ba1;
+
+}

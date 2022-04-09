@@ -1,0 +1,105 @@
+/* p.error {
+color: red;
+
+}
+
+/* p.error tags the paragraph tags with the class of "error" */
+
+p.feedback {
+color: green;
+border: green 2px dashed; 
+
+}
+
+p.success {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #316ec9;
+box-shadow: grey;
+
+}
+
+#content {
+background-color: #ebebeb;
+padding: 20px;    
+}  */
+
+
+/* DESCENDENT SELECTORS: PARENT AND CHILD */
+/* BELOW: parent and child css elements: parent child (with a space between) */
+
+/* div p {
+    color: purple;
+}
+
+div.error {
+    color: crimson;
+
+}
+
+h3 {
+    text-decoration: underline; */
+}
+
+/* a[href] {
+    background-color: turquoise;  */
+}
+
+/* a[href="https://www.netninja.dev"] {
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase; */
+}
+
+/* To shortern the html link address, use "href*", where the asterix says to style any links with a certain text in the link::after */
+
+/* a[href*="ninja"]{
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* a[href*="google"]{
+    color: white;
+    background-color: red;
+    border: 2px dotted blue; */
+}
+
+/* The dollar sign $ is for any link address that ENDS in a particular word.dev */
+
+
+
+a[href$=".co.uk"] {
+    color: blue; 
+    background-color: chocolate;
+}
+
+/* a[href*="google"]{
+    background-color: #d13dac;
+    color: rgb(22, 15, 15);
+    text-decoration: none;
+    font-weight: lighter;
+    text-transform: uppercase; */
+
+
+    /* INHERITANCE:   Classes and selectors (time 19:40) */
+
+    div {
+        color: lightcoral;
+        border: 1px solid grey;
+        margin: 40px;
+        font-weight: bold;
+    }
+
+    div p {
+        margin: inherit;
+        border: inherit;
+        color: crimson;
+    }
+
+    p {
+        color: orange;
+    }

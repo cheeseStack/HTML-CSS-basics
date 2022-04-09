@@ -1,0 +1,12 @@
+span {
+    /* use inline-block as the display property to allow to add margins at the top and bottom */
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+div {
+    padding: 20px;
+    border: 2px solid crimson;
+    margin: 20px;
+}

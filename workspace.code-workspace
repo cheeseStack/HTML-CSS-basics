@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "Git Hub Files\\html-and-css-crash-course-master\\html-and-css-crash-course-master\\img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "@1 Net Ninja HTML & CSS Crash Course"
+	}
+}
